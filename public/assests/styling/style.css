@@ -44,13 +44,26 @@ ul li {
 .introParagraph{
     color: #d0d5df;
     line-height: 1.65;
+    
 }
 .introPic{
     width:10rem;
     font-size: 1.2;
-    border-radius:15px
+    border-radius:15px;
+    
 }
 
+.introRedirectdiv{
+    padding-bottom: 1rem;
+}
+
+.introRedirect{
+    text-decoration: none;
+}
+
+.introRedirect:hover{
+    color:#d0d5df
+}
 
 /* About page styling */
 

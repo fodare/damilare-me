@@ -15,13 +15,22 @@ function Home() {
                   problems / what I learn. This page is a digital garden of
                   things I've learned.
                </p>
+               <div className="introRedirectdiv">
+                  <a className="introRedirect" href="/about">
+                     <img
+                        alt="about logo"
+                        src="https://img.icons8.com/dotty/30/000000/about.png"
+                     />{" "}
+                     More about me
+                  </a>
+               </div>
             </div>
 
             <div className="col-lg-4 col-sm-4 col-md-4">
                <img
                   className="introPic"
                   alt="damilare.png"
-                  src="https://www.taniarascia.com/static/me-b7a38ffc7e22e2ba4f70d96ac79642de.jpg"
+                  src="https://avatars.githubusercontent.com/u/41299452?v=4"
                />
             </div>
          </div>
