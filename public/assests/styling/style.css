@@ -16,9 +16,7 @@ ul li{
     color:#f8f9fa !important;
 }
 
-.header-div{
-    background-color:#1c1e24;
-}
+
 
 .footer-div{
     background-color:#1c1e24;
@@ -32,7 +30,26 @@ ul li {
     font-weight:bolder;
 }
 
+.header-div{
+    background-color:#1c1e24;
+    margin-bottom: 3rem;
+}
+
 /* Home page styling */
+.introGreetings{
+    font-size:2.3rem;
+    line-height: 1.6;
+}
+
+.introParagraph{
+    color: #d0d5df;
+    line-height: 1.65;
+}
+.introPic{
+    width:10rem;
+    font-size: 1.2;
+    border-radius:15px
+}
 
 
 /* About page styling */
