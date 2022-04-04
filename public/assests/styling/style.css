@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    background-color:#282c34;
+    color:#f8f9fa;
+}
+a{
+    color:#f8f9fa;
+}
+
+h4{
+    color:#f8f9fa;
+}
+
+ul li{
+    color:#f8f9fa !important;
+}
+
+.header-div{
+    background-color:#1c1e24;
+}
+
+.footer-div{
+    background-color:#1c1e24;
+}
+.git-logo{
+    color: #f8f8f8!important;
+}
