@@ -30,7 +30,12 @@ function NavBar() {
             </ul>
 
             <div className="col-md-3 text-end">
-               <a className="me-2" href="/">
+               <a
+                  className="me-2"
+                  href="https://github.com/fodare"
+                  target="_blank"
+                  rel="noreferrer"
+               >
                   <img
                      src="https://img.icons8.com/dusk/30/000000/github.png"
                      alt="Github logo"
