@@ -3,7 +3,10 @@ body{
     font-family: 'Roboto Mono', monospace;
     background-color:#282c34;
     color:#f8f9fa;
+    min-height:100vh;
+    position: relative;
 }
+
 a{
     color:#f8f9fa;
 }
@@ -17,19 +20,25 @@ ul li{
 }
 
 
+/* Footer styling */
+footer{
+    position:absolute;
+    justify-content: center;
+    bottom:0;
+    width:100%;
+    background-color: #1c1e24
+}
 
-.footer-div{
-    background-color:#1c1e24;
-}
-.git-logo{
-    color: #f8f8f8!important;
-}
 
 /* Navbar styling */
 ul li {
     font-weight:bolder;
+    color:#d0d5df
 }
 
+.git-logo{
+    color: #f8f8f8!important;
+}
 .header-div{
     background-color:#1c1e24;
     margin-bottom: 3rem;
@@ -64,6 +73,33 @@ ul li {
 
 .introRedirect:hover{
     color:#d0d5df
+}
+
+/* Blog page styling */
+.articlesHeader{
+    padding-top: 3.7rem;
+    display:flex;
+    justify-content: space-between;
+    line-height:1.2;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    margin-bottom: 2rem;
+}
+
+.articleHead{
+    font-weight: bold;
+    color: #caad49;
+    box-sizing: border-box;
+}
+
+.articleLink{
+    font-weight: bold;
+    font-size:1.1rem
+}
+
+.articleLink:hover{
+    background-color:#caad49;
+    color: black ;
 }
 
 /* About page styling */

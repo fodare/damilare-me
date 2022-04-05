@@ -34,6 +34,15 @@ function Home() {
                />
             </div>
          </div>
+
+         <div className="articles">
+            <div className="articlesHeader">
+               <h2 className="articleHead">Latest Articles</h2>
+               <a className="articleLink" href="/blogs">
+                  View All
+               </a>
+            </div>
+         </div>
       </div>
    );
 }
