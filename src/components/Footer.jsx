@@ -16,13 +16,13 @@ function Footer() {
                   </a>
                </li>
                <li className="nav-item">
-                  <a href="/about" className="nav-link px-2 text-muted">
-                     About
+                  <a href="/projects" className="nav-link px-2 text-muted">
+                     Projects
                   </a>
                </li>
                <li className="nav-item">
-                  <a href="/projects" className="nav-link px-2 text-muted">
-                     Projects
+                  <a href="/about" className="nav-link px-2 text-muted">
+                     About
                   </a>
                </li>
             </ul>

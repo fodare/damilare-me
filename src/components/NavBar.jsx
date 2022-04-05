@@ -18,13 +18,13 @@ function NavBar() {
                   </a>
                </li>
                <li>
-                  <a href="/about" className="nav-link px-2 link-secondary">
-                     About
+                  <a href="/projects" className="nav-link px-2 link-secondary">
+                     Projects
                   </a>
                </li>
                <li>
-                  <a href="/projects" className="nav-link px-2 link-secondary">
-                     Projects
+                  <a href="/about" className="nav-link px-2 link-secondary">
+                     About
                   </a>
                </li>
             </ul>
