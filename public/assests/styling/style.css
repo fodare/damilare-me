@@ -115,7 +115,46 @@ ul li {
     font-size: 2.6rem;
     padding: 1.6rem 1rem
 }
-/* About page styling */
+
+.articlesIntro p{
+    width: 100%
+}
 
 
 /* Projects page styling */
+.about{
+    line-height: 1.6;
+}
+.projectsInto{
+    text-align: center
+}
+
+.projectsInto h3{
+    font-weight: bolder;
+    font-size: 2.6rem;
+    padding: 1.6rem 1rem
+}
+
+.projectsInto p{
+    width: 100%
+}
+
+/* About page styling */
+.aboutIntro{
+    text-align:center
+}
+
+.aboutIntro h3{
+    font-weight: bolder;
+    font-size: 2.6rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1rem
+}
+
+.aboutIntro p{
+    padding-bottom: 1.3rem;
+    font-weight:normal;
+    font-size:1rem;
+    color:#7c817f;
+    display:block;
+}
