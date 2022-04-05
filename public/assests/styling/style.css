@@ -44,6 +44,7 @@ ul li {
 .introParagraph{
     color: #d0d5df;
     line-height: 1.65;
+    max-width: 90%;
     
 }
 .introPic{

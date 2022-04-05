@@ -4,7 +4,7 @@ import FullYear from "../helpers/date";
 function Footer() {
    return (
       <div className="footer-div fixed-bottom">
-         <footer className="d-flex flex-wrap container justify-content-between align-items-center py-3 my-4 border-top">
+         <footer className="d-flex flex-wrap container justify-content-between align-items-center py-3 my-1 border-top">
             <p className="col-md-4 mb-0 text-muted">
                &copy; <FullYear />. With love Damilare F.
             </p>

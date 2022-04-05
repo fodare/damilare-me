@@ -14,7 +14,6 @@ export function Greetings() {
       greetings = "Good afternoon";
    } else {
       greetings = "Good evening";
-      console.log(greetings, hours);
    }
 
    return greetings;
