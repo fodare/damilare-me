@@ -26,7 +26,7 @@ footer{
     justify-content: center;
     bottom:0;
     width:100%;
-    background-color: #1c1e24
+    background-color: #1c1e24;
 }
 
 
@@ -64,7 +64,7 @@ ul li {
 }
 
 .introRedirectdiv{
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .introRedirect{
@@ -73,6 +73,10 @@ ul li {
 
 .introRedirect:hover{
     color:#d0d5df
+}
+
+.articleMessage h3{
+    padding-top: 1.5rem;
 }
 
 /* Blog page styling */
@@ -88,7 +92,7 @@ ul li {
 
 .articleHead{
     font-weight: bold;
-    color: #caad49;
+    color: #F3E9DD;
     box-sizing: border-box;
 }
 
@@ -98,7 +102,7 @@ ul li {
 }
 
 .articleLink:hover{
-    background-color:#caad49;
+    background-color:#F3E9DD;
     color: black ;
 }
 

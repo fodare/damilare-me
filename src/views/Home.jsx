@@ -42,6 +42,9 @@ function Home() {
                   View All
                </a>
             </div>
+            <div className="articleMessage">
+               <h3>Please excuse the delay. Work in progress.</h3>
+            </div>
          </div>
       </div>
    );
