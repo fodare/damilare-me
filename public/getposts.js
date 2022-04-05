@@ -63,7 +63,7 @@ const getPosts = async () => {
    });
    setTimeout(() => {
       console.log(postlist);
-   }, 1000);
+   }, 20000);
 };
 
 getPosts();
