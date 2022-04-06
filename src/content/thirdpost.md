@@ -1,7 +1,7 @@
 ---
 title: My thrid Post
 author: Dare O.
-date: April 5, 2022
+date: Nov 5, 2022
 tag: Lessons
 ---
 

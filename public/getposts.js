@@ -48,9 +48,12 @@ const getPosts = () => {
 
             const metadata = parseMetadata({ lines, metadataIndicies });
             const content = parseContent({ lines, metadataIndicies });
+            const date = new Date(metadata.date);
+            const timestamp = date.getTime() / 100;
+            console.log(timestamp);
 
             post = {
-               id: i + 1,
+               id: timestamp,
                title: metadata.title ? metadata.title : "Article has no title",
                author: metadata.author
                   ? metadata.author
@@ -61,9 +64,11 @@ const getPosts = () => {
             };
             postlist.push(post);
             if (i === files.length - 1) {
-               let data = JSON.stringify(postlist);
-               console.log(data);
-               fs.writeFileSync("src/posts.json", JSON.stringify(data));
+               const sortedList = postlist.sort((a, b) => {
+                  return a.id < b.id ? 1 : -1;
+               });
+               let data = JSON.stringify(sortedList);
+               fs.writeFileSync("src/posts.json", JSON.stringify(postlist));
             }
             // setTimeout(() => {}, 3000);
          });

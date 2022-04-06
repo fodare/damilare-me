@@ -107,19 +107,53 @@ ul li {
 }
 
 .articlesIntro{
-    text-align: center
+   display: block;
 }
 
-.articlesIntro h3{
+.Ariclehead {
     font-weight: bolder;
     font-size: 2.6rem;
-    padding: 1.6rem 1rem
+    padding: 1.6rem 1rem;
+    text-align: center;
 }
 
 .articlesIntro p{
-    width: 100%
+    width: auto;
+    text-align: center;
+    padding: 1rem
 }
 
+.post{
+    display:block;
+    border-radius: 5px;
+    padding:1rem;
+
+}
+a.post {
+    grid-gap: 1rem;
+    align-items: center;
+    border: 1px solid transparent;
+    display: grid;
+    grid-template-columns: auto 7rem;
+    text-decoration: none;
+    padding: 0.4rem 1rem;
+}
+a.post:hover {
+    color: #a19a9b;
+    background-color:#1c1e25;
+}
+
+a.post h3{
+    margin:0;
+    font-size:1.1rem;
+    font-weight: 500;
+    margin-left:0 ;
+    filter:brightness(1)
+}
+
+.datediv{
+    width: 100
+}
 
 /* Projects page styling */
 .about{

@@ -1,7 +1,7 @@
 ---
 title: My fifth Post
 author: Dare O.
-date: April 5, 2022
+date: Apr 5, 2022
 tag: Lessons
 ---
 

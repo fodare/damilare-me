@@ -1,4 +1,5 @@
 import React from "react";
+import PostList from "../components/Postlist";
 import { Greetings } from "../helpers/date";
 
 function Home() {
@@ -42,8 +43,8 @@ function Home() {
                   View All
                </a>
             </div>
-            <div className="articleMessage">
-               <h3>Please excuse the delay. Work in progress.</h3>
+            <div className="post">
+               <PostList />
             </div>
          </div>
       </div>

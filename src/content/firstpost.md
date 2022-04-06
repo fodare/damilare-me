@@ -1,7 +1,7 @@
 ---
 title: My first Post
 author: Damilare F.
-date: April 5, 2022
+date: Jan 5, 2022
 tag: Lessons
 ---
 
