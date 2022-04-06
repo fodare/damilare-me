@@ -3,10 +3,10 @@ const fs = require("fs");
 
 const dirPath = path.join(__dirname, "../src/content");
 
-const postlist = [];
+let postlist = [];
 
-const getPosts = async () => {
-   await fs.readdir(dirPath, (err, files) => {
+const getPosts = () => {
+   fs.readdir(dirPath, (err, files) => {
       if (err) {
          return console.log(`Failed to get contenets in the dir ${err}`);
       }
@@ -14,6 +14,7 @@ const getPosts = async () => {
       files.forEach((file, i) => {
          let obj = {};
          let post;
+
          fs.readFile(`${dirPath}/${file}`, "utf8", (err, contents) => {
             const getMetadataIndices = (acc, elem, i) => {
                if (/^---/.test(elem)) {
@@ -47,6 +48,7 @@ const getPosts = async () => {
 
             const metadata = parseMetadata({ lines, metadataIndicies });
             const content = parseContent({ lines, metadataIndicies });
+
             post = {
                id: i + 1,
                title: metadata.title ? metadata.title : "Article has no title",
@@ -58,12 +60,15 @@ const getPosts = async () => {
                content: content ? content : "Article has no content",
             };
             postlist.push(post);
+            if (i === files.length - 1) {
+               let data = JSON.stringify(postlist);
+               console.log(data);
+               fs.writeFileSync("src/posts.json", JSON.stringify(data));
+            }
+            // setTimeout(() => {}, 3000);
          });
       });
    });
-   setTimeout(() => {
-      console.log(postlist);
-   }, 20000);
+   return;
 };
-
 getPosts();
