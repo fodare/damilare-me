@@ -1,6 +1,6 @@
 import React from "react";
 import PostList from "../components/Postlist";
-import { Greetings } from "../helpers/date";
+import Greetings from "../helpers/date";
 
 function Home() {
    return (
