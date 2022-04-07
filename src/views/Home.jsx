@@ -11,7 +11,7 @@ function Home() {
                   <Greetings />, I'm Däre.
                </h2>
                <p className="introParagraph">
-                  I'm an IT Operations manager in Münster Germany. I love
+                  I'm an IT Operations manager based in Münster Germany. I love
                   building APIs and documenting solutions to technical related
                   problems / what I learn. This page is a digital garden of
                   things I've learned.
