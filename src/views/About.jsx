@@ -5,7 +5,7 @@ function About() {
    return (
       <div className="container about">
          <div className="aboutIntro">
-            <h3>Projects</h3>
+            <h3>About</h3>
             <p>
                IT Operations Manager, Systems Engineer and a DevOps enthusiast.
             </p>

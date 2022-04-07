@@ -7,7 +7,7 @@ function Projects() {
             <h3>Projects</h3>
             <p>
                Below are some open-source projects, personal projects I have
-               created on working on.
+               created or working on.
             </p>
          </div>
       </div>
