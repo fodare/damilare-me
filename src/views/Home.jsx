@@ -43,7 +43,7 @@ function Home() {
                   View All
                </a>
             </div>
-            <div className="post">
+            <div className="postlist">
                <PostList />
             </div>
          </div>

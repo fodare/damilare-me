@@ -3,7 +3,7 @@ import PostList from "../components/Postlist";
 
 function Blog() {
    return (
-      <div className="">
+      <div className="articlediv">
          <div className="articlesIntro">
             <h3 className="Ariclehead">Articles</h3>
             <p>
@@ -11,7 +11,7 @@ function Blog() {
                related materials i have collected over time.
             </p>
          </div>
-         <div className="post container">
+         <div className="postdiv container">
             <PostList />
          </div>
       </div>

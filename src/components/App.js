@@ -6,6 +6,7 @@ import About from "../views/About";
 import Projects from "../views/Projects";
 import Blog from "../views/Blogs";
 import PageNotFound from "../views/PageNotFound";
+import BlogPost from "../views/BlogPost";
 import Footer from "./Footer";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Route path="/blogs" element={<Blog />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/blogpost/:query" element={<BlogPost />} />
             <Route path="*" element={<PageNotFound />} />
          </Routes>
       </Router>

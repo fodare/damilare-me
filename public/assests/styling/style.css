@@ -46,6 +46,7 @@ ul li {
 }
 
 /* Home page styling */
+
 .introGreetings{
     font-size:2.3rem;
     line-height: 1.6;
@@ -76,11 +77,14 @@ ul li {
     color:#d0d5df
 }
 
+.articles{
+    margin-bottom:1rem
+}
+
 .articleMessage h3{
     padding-top: 1.5rem;
 }
 
-/* Blog page styling */
 .articlesHeader{
     padding-top: 3.7rem;
     display:flex;
@@ -88,7 +92,7 @@ ul li {
     line-height:1.2;
     align-items: center;
     border-bottom: 1px solid gray;
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 .articleHead{
@@ -99,17 +103,25 @@ ul li {
 
 .articleLink{
     font-weight: bold;
-    font-size:1.1rem
+    font-size:1.1rem;
+    text-decoration: none;
 }
 
 .articleLink:hover{
-    background-color:#F3E9DD;
-    color: black ;
+    color:#7c817f;
+    background-color:#1c1e24;
+    padding: 0.4rem 1rem
 }
 
-.articlesIntro{
-   display: block;
+/* Blog page styling */
+
+.articlediv{
+    margin-bottom:3rem;
 }
+
+/* .articlesIntro{
+   display: block;
+} */
 
 .Ariclehead {
     font-weight: bolder;
@@ -124,36 +136,38 @@ ul li {
     padding: 1rem
 }
 
-.post{
-    display:block;
-    border-radius: 5px;
-    padding:1rem;
-
+.post {
+    padding: 0.2rem 1rem;
+    border-radius: 15px;
 }
-a.post {
+
+.post:hover{
+    background-color:#1c1e24
+}
+
+.postlink:hover{
+    color:#7c817f;
+    background-color: #1c1e24;
+}
+
+.postitems{
     grid-gap: 1rem;
     align-items: center;
     border: 1px solid transparent;
     display: grid;
     grid-template-columns: auto 7rem;
-    text-decoration: none;
-    padding: 0.4rem 1rem;
-}
-a.post:hover {
-    color: #a19a9b;
-    background-color:#1c1e25;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding: 0.2rem 0.4rem;
 }
 
-a.post h3{
-    margin:0;
+.postitems h3{
     font-size:1.1rem;
     font-weight: 500;
-    margin-left:0 ;
-    filter:brightness(1)
 }
 
-.datediv{
-    width: 100
+.postlink{
+    text-decoration: none;
 }
 
 /* Projects page styling */
