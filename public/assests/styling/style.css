@@ -34,7 +34,13 @@ ul li{
 /* Navbar styling */
 ul li {
     font-weight:bolder;
-    color:#d0d5df
+    color:#d0d5df;
+    padding: 0 0.9rem !important;
+}
+
+ul li:hover{
+    background-color:#d0d5df;
+    border-radius: 8px;
 }
 
 .git-logo{
