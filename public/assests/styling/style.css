@@ -195,6 +195,10 @@ ul li:hover{
 }
 
 /* About page styling */
+.about{
+    margin:3rem auto;
+}
+
 .aboutIntro{
     text-align:center
 }
@@ -208,8 +212,96 @@ ul li:hover{
 
 .aboutIntro p{
     padding-bottom: 1.3rem;
-    font-weight:normal;
-    font-size:1rem;
+    font-size:1.4rem;
     color:#7c817f;
     display:block;
+}
+
+.connect-div{
+    padding-top:3rem;
+}
+
+.connect-div h4{
+    font-size: 1.8rem;
+    font-weight:bold;
+    color:#92BA92
+}
+
+.connect-div p{
+    font-size:1.2rem
+}
+
+.connectLinks{
+    line-height:2rem;
+}
+
+.connectLinks a {
+    text-decoration: none;
+    font-size:1.1rem;
+    font-weight:lighter;
+    
+}
+
+.connectLinks-discord{
+    font-size:1.1rem;
+    font-weight:lighter;
+}
+
+.connectLinks a:hover {
+    background-color: #d0d5df;
+    padding:0rem 1rem;
+    color:black;
+}
+
+.experience{
+    padding-top:2rem;
+}
+
+.experience h4{
+    font-size: 1.8rem;
+    font-weight:bold;
+    color:#92BA92
+}
+.experience-heading{
+    grid-gap: 1rem;
+    align-items: center;
+    border: 1px solid transparent;
+    display: grid;
+    grid-template-columns: auto 13rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    padding: 0.2rem 0.4rem;
+}
+
+.company-name p{
+    padding-bottom: 1.3rem;
+}
+
+.expreience-tasks li{
+    padding-left:3rem;
+    line-height:1.9rem;
+}
+
+.experice-div{
+    padding-bottom: 2rem;
+}
+
+.skills{
+    padding-bottom:2rem;
+}
+
+.skills h4{
+    font-size: 1.8rem;
+    font-weight:bold;
+    color:#92BA92;
+}
+
+.skills li{
+    padding-left:3rem
+}
+
+.education h4{
+    font-size: 1.8rem;
+    font-weight:bold;
+    color:#92BA92
 }
