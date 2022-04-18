@@ -15,8 +15,8 @@ function NavBar() {
                <li>
                   <a href="/blogs" className="nav-link px-2 link-secondary">
                      <img
-                        alt="blog logo"
-                        src="https://img.icons8.com/external-itim2101-blue-itim2101/25/000000/external-blog-copywriting-itim2101-blue-itim2101-1.png"
+                        alt="Blogs logo"
+                        src="https://img.icons8.com/ios-glyphs/30/000000/blog--v1.png"
                      />{" "}
                      Blogs
                   </a>
