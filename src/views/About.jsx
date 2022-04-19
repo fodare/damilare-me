@@ -25,7 +25,7 @@ function About() {
                   Connect <hr />
                </h4>
 
-               <p>We can connect via channels below:</p>
+               <p>We can connect via the channels below:</p>
                <span className="connectLinks">
                   <li>
                      <a
@@ -80,10 +80,10 @@ function About() {
                      <li>
                         Help implement and maintain continuous monitoring
                         systems/applications, documentation and optimization of
-                        IT systems and services
+                        IT systems and services.
                      </li>
                      <li>
-                        Advice, analysis and classify techical IT requirements
+                        Advice, analyze and classify technical IT requirements
                         or malfunctions.
                      </li>
                      <li>
@@ -91,10 +91,10 @@ function About() {
                         infrastructure changes.
                      </li>
                      <li>
-                        Managing of technical projects and management of
-                        internal projects staff and external service providers.
+                        Managing technical projects and management of internal
+                        projects staff and external service providers.
                      </li>
-                     <li>Ensuring compliance and IT security regulations</li>
+                     <li>Ensuring compliance and IT security regulations.</li>
                   </span>
                </div>
 
@@ -110,7 +110,7 @@ function About() {
 
                   <span className="expreience-tasks">
                      <li>
-                        Provide an expert level support and adminstration of
+                        Provide expert-level support and administration of
                         systems and applications.
                      </li>
                      <li>
@@ -118,13 +118,8 @@ function About() {
                         within an agreed SLAs.
                      </li>
                      <li>
-                        Responsible for continous improvement and management of
+                        Responsible for continuous improvement and management of
                         change affecting the services.
-                     </li>
-                     <li>
-                        Analyzing complex issues, identfying problems and
-                        developing, implementing logicl conclusions and
-                        effective solutions.
                      </li>
                      <li>
                         Analyzing complex issues, identfying problems and
@@ -150,8 +145,8 @@ function About() {
                      </li>
 
                      <li>
-                        Perfroming client surveys, creation and improvement of
-                        docunetation.
+                        Performing client surveys, creation and improving of
+                        documentation.
                      </li>
                      <li>
                         Knowledge acquisitions of products and applications.
@@ -171,8 +166,8 @@ function About() {
                <span>
                   <li>Languages: Javascript, Java, Python, C#.</li>
                   <li>
-                     Concepts: DB adminstration(SQL Lite, MongoDB, SQL), API
-                     Testing & creation, Systems adminstration, Web3, Data
+                     Concepts: DB administration(SQL Lite, MongoDB, SQL), API
+                     Testing & creation, Systems administration, Web3, Data
                      processing, Risk analysis, Virtualization, Dev OPS,
                      Cloudification, Web development.
                   </li>

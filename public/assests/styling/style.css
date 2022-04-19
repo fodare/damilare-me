@@ -164,7 +164,7 @@ ul li:hover{
     grid-template-columns: auto 7rem;
     margin-left: -1rem;
     margin-right: -1rem;
-    padding: 0.2rem 0.4rem;
+    padding: 0.1rem 1rem;
 }
 
 .postitems h3{
