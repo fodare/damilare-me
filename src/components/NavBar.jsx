@@ -46,7 +46,7 @@ function NavBar() {
                   className="me-2"
                   href="https://github.com/fodare"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                >
                   <img
                      src="https://img.icons8.com/dusk/30/000000/github.png"

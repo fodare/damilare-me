@@ -26,13 +26,12 @@ function About() {
                </h4>
 
                <p>We can connect via channels below:</p>
-
                <span className="connectLinks">
                   <li>
                      <a
                         href="https://github.com/fodare"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
                      >
                         Github.
                      </a>
@@ -42,7 +41,7 @@ function About() {
                      <a
                         href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
                      >
                         Linkedin.
                      </a>

@@ -7,7 +7,7 @@ import Projects from "../views/Projects";
 import Blog from "../views/Blogs";
 import PageNotFound from "../views/PageNotFound";
 import BlogPost from "../views/BlogPost";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 function App() {
    return (
