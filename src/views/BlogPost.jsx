@@ -29,7 +29,7 @@ const BlogPost = () => {
    if (postExists === false) {
       return <Navigate to="*" />;
    }
-   return <Markdown children={fetchedPost.content} />;
+   return <Markdown className="specific-post" children={fetchedPost.content} />;
 };
 
 export default BlogPost;

@@ -176,6 +176,11 @@ ul li:hover{
     text-decoration: none;
 }
 
+.specific-post{
+    text-align: center;
+}
+
+
 /* Projects page styling */
 .about{
     line-height: 1.6;
