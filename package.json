@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "server": "node public/getposts.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,7 +41,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "2.1.1",
+    "gh-pages": "^2.1.1",
     "react-router-dom": "^6.3.0"
   }
 }
