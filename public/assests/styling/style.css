@@ -72,6 +72,7 @@ ul li:hover{
 }
 
 .introRedirectdiv{
+    padding-top: 1rem;
     padding-bottom: 2rem;
 }
 
@@ -80,7 +81,11 @@ ul li:hover{
 }
 
 .introRedirect:hover{
-    color:#d0d5df
+    color:#1c1e24;
+    background-color:#d0d5df;
+    padding: 0.7rem 0.7rem;
+    border-radius:5px;
+    font-size:1.1rem
 }
 
 .articles{
