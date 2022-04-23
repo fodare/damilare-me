@@ -315,3 +315,13 @@ ul li:hover{
     font-weight:bold;
     color:#92BA92
 }
+
+/* Page not found */
+.notfound{
+    text-align:center
+
+}
+
+.notfoundbtn{
+    margin-top: 2rem;
+}
