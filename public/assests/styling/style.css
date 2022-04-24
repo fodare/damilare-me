@@ -162,14 +162,14 @@ ul li:hover{
 }
 
 .postitems{
-    grid-gap: 1rem;
+    grid-gap: 5rem;
     align-items: center;
     border: 1px solid transparent;
     display: grid;
     grid-template-columns: auto 7rem;
     margin-left: -1rem;
     margin-right: -1rem;
-    padding: 0.1rem 1rem;
+    padding: 0.5rem 0.5rem;
 }
 
 .postitems h3{
@@ -181,9 +181,6 @@ ul li:hover{
     text-decoration: none;
 }
 
-.specific-post{
-    text-align: center;
-}
 
 
 /* Projects page styling */
@@ -324,4 +321,25 @@ ul li:hover{
 
 .notfoundbtn{
     margin-top: 2rem;
+}
+
+/* BlogPost styling */
+
+
+.posthead p{
+text-align:center
+}
+
+.postheadertitle{
+    font-weight: bold;
+}
+
+.postheader h1{
+    text-align: center;
+    font-size:2rem;
+    font-weight:bold
+}
+
+.posthead{
+    padding-bottom: 3rem;
 }

@@ -3,6 +3,7 @@ import { Navigate } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import Markdown from "react-markdown";
 import postlist from "../posts.json";
+import rehypeRaw from "rehype-raw";
 
 const BlogPost = () => {
    let { query } = useParams();
@@ -29,7 +30,24 @@ const BlogPost = () => {
    if (postExists === false) {
       return <Navigate to="*" />;
    }
-   return <Markdown className="specific-post" children={fetchedPost.content} />;
+   return (
+      <div className="postheader">
+         <div className="posthead">
+            <p>
+               Written by{" "}
+               <span className="postheadertitle">{fetchedPost.author}</span> on{" "}
+               {fetchedPost.date}
+            </p>
+            <h1>{fetchedPost.title}</h1>
+         </div>
+
+         <Markdown
+            className="specific-post container"
+            children={fetchedPost.content}
+            rehypePlugins={[rehypeRaw]}
+         />
+      </div>
+   );
 };
 
 export default BlogPost;
