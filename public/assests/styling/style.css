@@ -162,7 +162,7 @@ ul li:hover{
 }
 
 .postitems{
-    grid-gap: 5rem;
+    grid-gap: 1rem;
     align-items: center;
     border: 1px solid transparent;
     display: grid;
