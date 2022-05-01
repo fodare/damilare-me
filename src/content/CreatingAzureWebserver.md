@@ -34,7 +34,7 @@ In this example we would be creating a virtual Windows server, configuring its N
 
 <h2 style="color:#92BA92; padding-bottom:1rem">Integrating the Virtual Machine with Your Network Security Group</h2>
 
-In the next steps, we would be configuring the VMs NSG, this can as well be integrated with the newly created resource group so you do not have to create an NSG for individual resource within a resource group. To do this follow the steps below.
+In the next steps, we would be configuring the VMs NSG, this can as well be integrated with the newly created resource group so you do not have to create an NSG for individual resources within a resource group. To do this follow the steps below.
 
 1. Now it has the inbound ports. By default, allow selected ports to keep it as RDP for now.
 
