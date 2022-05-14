@@ -6,7 +6,7 @@ export function Greetings() {
 
    if (hours < 12) {
       greetings = "Good morning";
-   } else if ((hours) => 12 && hours <= 18) {
+   } else if (hours === 12 && hours <= 18) {
       greetings = "Good afternoon";
    } else {
       greetings = "Good evening";
