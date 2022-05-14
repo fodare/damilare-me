@@ -17,9 +17,7 @@ h4{
     color:#f8f9fa;
 }
 
-ul li{
-    color:#f8f9fa !important;
-}
+
 
 
 /* Footer styling */
@@ -32,13 +30,13 @@ ul li{
 
 
 /* Navbar styling */
-ul li {
+.navigation-bar {
     font-weight:bolder;
     color:#d0d5df;
     padding: 0 0.9rem !important;
 }
 
-ul li:hover{
+.navigation-bar li:hover{
     background-color:#d0d5df;
     border-radius: 8px;
 }

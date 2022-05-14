@@ -11,7 +11,7 @@ function NavBar() {
                <h4>Damilare F.</h4>
             </a>
 
-            <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <ul className="nav col-12 col-md-auto mb-2 navigation-bar justify-content-center mb-md-0">
                <li>
                   <a href="/blogs" className="nav-link px-2 link-secondary">
                      <img
