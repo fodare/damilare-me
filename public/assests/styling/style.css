@@ -17,9 +17,6 @@ h4{
     color:#f8f9fa;
 }
 
-
-
-
 /* Footer styling */
 .footer{
     text-align: center;
@@ -340,4 +337,29 @@ text-align:center
 
 .posthead{
     padding-bottom: 3rem;
+}
+
+.code-highlight{
+    margin:2rem 0;
+    max-width: 999999px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: block;
+    box-sizing:border-box;
+    background-color: #373c47;
+    border-radius: 6px;
+    padding: 1rem 2rem;
+    
+}
+
+.code-text{
+    padding: .9rem .9rem ;
+    text-size-adjust: none;
+    font-size: .9rem;
+}
+
+.posts-image{
+    width:70%;
+    height:50%;
+    margin:1rem 0 ;
 }
