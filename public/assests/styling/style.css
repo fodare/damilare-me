@@ -340,20 +340,20 @@ text-align:center
 }
 
 .code-highlight{
-    margin:2rem 0;
-    max-width: 999999px;
+    margin:1rem 0;
+    max-width: auto;
     overflow-x: auto;
     overflow-y: hidden;
     display: block;
     box-sizing:border-box;
     background-color: #373c47;
     border-radius: 6px;
-    padding: 1rem 2rem;
+    padding: .5rem .5rem;
     
 }
 
 .code-text{
-    padding: .9rem .9rem ;
+    padding: .1rem .5rem ;
     text-size-adjust: none;
     font-size: .9rem;
 }
@@ -362,4 +362,19 @@ text-align:center
     width:70%;
     height:50%;
     margin:1rem 0 ;
+}
+
+.post-links{
+    text-decoration: none;
+}
+
+.post-links:visited{
+    text-decoration: none;
+}
+
+.post-links:hover{
+    color:#1c1e24;
+    padding: .5rem;
+    background-color:#d0d5df;
+    text-decoration: none
 }
