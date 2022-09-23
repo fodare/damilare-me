@@ -257,11 +257,10 @@ a{
 .connect-div h4{
     font-size: 1.8rem;
     font-weight:bold;
-    color:#92BA92
 }
 
 .connect-div p{
-    font-size:1.2rem
+    font-size:1.2rem;
 }
 
 .connectLinks{
@@ -272,17 +271,18 @@ a{
     text-decoration: none;
     font-size:1.1rem;
     font-weight:lighter;
+    color:#a4a9ff
 }
 
 .connectLinks-discord{
     font-size:1.1rem;
     font-weight:lighter;
+    color:#a4a9ff;
 }
 
 .connectLinks a:hover {
-    background-color: #d0d5df;
-    padding:0rem 1rem;
-    color:black;
+    color:#a4a9ff;
+    border-bottom:1px solid;
 }
 
 .experience{
@@ -292,7 +292,6 @@ a{
 .experience h4{
     font-size: 1.8rem;
     font-weight:bold;
-    color:#92BA92
 }
 .experience-heading{
     grid-gap: 1rem;
@@ -325,7 +324,6 @@ a{
 .skills h4{
     font-size: 1.8rem;
     font-weight:bold;
-    color:#92BA92;
 }
 
 .skills li{
@@ -335,7 +333,6 @@ a{
 .education h4{
     font-size: 1.8rem;
     font-weight:bold;
-    color:#92BA92
 }
 
 /* Page not found */
