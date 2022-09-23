@@ -11,7 +11,7 @@ const PostList = () => {
                <Link className="postlink" to={`/blogpost/${post.id}`}>
                   <div className="postitems">
                      <h3>{post.title}</h3>
-                     <p>{post.date}</p>
+                     {/* <p>{post.date}</p> */}
                   </div>
                </Link>
             </div>

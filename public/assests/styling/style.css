@@ -186,11 +186,9 @@ a{
 }
 
 .postitems{
-    grid-gap: 1rem;
     align-items: center;
     border: 1px solid transparent;
-    display: grid;
-    grid-template-columns: auto 7rem;
+    display: block;
     margin-left: -1rem;
     margin-right: -1rem;
     padding: 0.5rem 0.5rem;
