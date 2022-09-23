@@ -15,33 +15,30 @@ function NavBar() {
             <ul className="nav col-12 col-md-auto mb-6 navigation-bar justify-content-center mb-md-0">
                {/* Blogs */}
                <li>
-                  <a href="/blogs" className="nav-link px-2 link-secondary">
-                     <img
-                        alt="Blogs logo"
-                        src="https://img.icons8.com/ios-glyphs/30/000000/blog--v1.png"
-                     />{" "}
+                  <a
+                     href="/blogs"
+                     className="nav-link px-4 link-secondary blog-link"
+                  >
                      Blogs
                   </a>
                </li>
 
                {/* Projects */}
                <li>
-                  <a href="/projects" className="nav-link px-2 link-secondary">
-                     <img
-                        alt="project logo"
-                        src="https://img.icons8.com/ios/25/000000/view-quilt.png"
-                     />{" "}
+                  <a
+                     href="/projects"
+                     className="nav-link px-4 link-secondary project-link"
+                  >
                      Projects
                   </a>
                </li>
 
                {/* Abouts */}
                <li>
-                  <a href="/about" className="nav-link px-2 link-secondary">
-                     <img
-                        alt="about logo"
-                        src="https://img.icons8.com/external-others-pike-picture/30/000000/external-about-goal-target-purpose-others-pike-picture-2.png"
-                     />{" "}
+                  <a
+                     href="/about"
+                     className="nav-link px-4 link-secondary about-link"
+                  >
                      About
                   </a>
                </li>

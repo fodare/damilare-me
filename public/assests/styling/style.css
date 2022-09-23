@@ -31,9 +31,7 @@ a{
 }
 
 .navigation-bar li:hover{
-    /* background-color:#d0d5df; */
     border-radius: 0px;
-    border-bottom: 1px solid #ced4da;
 }
 
 .git-logo{
@@ -48,6 +46,18 @@ a{
     font-size: 1.5rem;
     font-weight:bold;
     color:#f8f9fa;
+}
+
+.blog-link:hover{
+    border-bottom: 1px solid #a4a9ff;
+}
+
+.project-link:hover{
+    border-bottom: 1px solid #da66b7;
+}
+
+.about-link:hover{
+    border-bottom: 1px solid #b0292c;
 }
 
 /* Home page styling */
