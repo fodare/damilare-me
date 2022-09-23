@@ -1,5 +1,6 @@
 {
   "name": "damilare-me",
+  "Version": "2.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
