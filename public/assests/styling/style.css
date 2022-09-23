@@ -13,9 +13,6 @@ a{
     color:#f8f9fa;
 }
 
-h4{
-    color:#f8f9fa;
-}
 
 /* Footer styling */
 .footer{
@@ -34,8 +31,9 @@ h4{
 }
 
 .navigation-bar li:hover{
-    background-color:#d0d5df;
-    border-radius: 8px;
+    /* background-color:#d0d5df; */
+    border-radius: 0px;
+    border-bottom: 1px solid #ced4da;
 }
 
 .git-logo{
@@ -44,6 +42,12 @@ h4{
 .header-div{
     background-color:#1c1e24;
     margin-bottom: 3rem;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight:bold;
+    color:#f8f9fa;
 }
 
 /* Home page styling */
