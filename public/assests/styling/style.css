@@ -409,6 +409,8 @@ text-align:center
 
 
 /* Media query */
-@media (max-width: ) {
-    
+@media (max-width:1000px) {
+    .introPic{
+        display: none;
+    }
 }
