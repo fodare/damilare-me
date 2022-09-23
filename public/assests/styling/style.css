@@ -392,6 +392,9 @@ text-align:center
 
 .post-links{
     text-decoration: none;
+    color:#a4a9ff;
+    font-size:1.1rem;
+    font-weight:light;
 }
 
 .post-links:visited{
@@ -399,10 +402,8 @@ text-align:center
 }
 
 .post-links:hover{
-    color:#1c1e24;
+    color:#a4a9ff;
     padding: .5rem;
-    background-color:#d0d5df;
-    text-decoration: none
 }
 
 

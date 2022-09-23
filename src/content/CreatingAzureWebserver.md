@@ -5,12 +5,11 @@ date: 2022-04-24
 tag: Lessons
 ---
 
-<h2 style="color:#92BA92; padding-bottom:1rem">Introduction</h2>
+<h2 style="padding-bottom:1rem">Introduction</h2>
 
 Creating web servers is one of the first steps to high availability through redundancies. A Webserver falls into a type of Virtual Machine(VM). There are multiple ways to automate the creation process or configuration of VMs, tools such as Terraform, Ansible, Chef, Puppet, Azure Resource Manager template and many more can be used to help automate and manage Azure VMs more efficiently. However, the article below are steps to help create a VM from the Azure portal.
 
-
-<h2 style="color:#92BA92; padding-bottom:1rem">Steps to creating VM </h2>
+<h2 style="padding-bottom:1rem">Steps to creating VM </h2>
 
 In this example we would be creating a virtual Windows server, configuring its NSG(Network security group), setting up a server manager and publishing a dummy custom web page.
 
@@ -32,7 +31,7 @@ In this example we would be creating a virtual Windows server, configuring its N
 
 9. Put the *username* and *password* (Keep this safe).
 
-<h2 style="color:#92BA92; padding-bottom:1rem">Integrating the Virtual Machine with Your Network Security Group</h2>
+<h2 style="padding-bottom:1rem">Integrating the Virtual Machine with Your Network Security Group</h2>
 
 In the next steps, we would be configuring the VMs NSG, this can as well be integrated with the newly created resource group so you do not have to create an NSG for individual resources within a resource group. To do this follow the steps below.
 
@@ -44,7 +43,7 @@ In the next steps, we would be configuring the VMs NSG, this can as well be inte
 
 4. Once the validation is completed and there are no errors, hit *Create*.
 
-<h2 style="color:#92BA92; padding-bottom:1rem">Connecting to the Virtual Machine</h2>
+<h2 style="padding-bottom:1rem">Connecting to the Virtual Machine</h2>
 
 Once the provisioning is completed, we can then connect to the VM via RDP / ssh to configure our web server. To connect to the VM follow the steps below.
 
@@ -56,7 +55,7 @@ Once the provisioning is completed, we can then connect to the VM via RDP / ssh 
 
 4. Try and utilize the credentials created earlier.
 
-<h2 style="color:#92BA92; padding-bottom:1rem">Setting up the server Manager</h2>
+<h2 style="padding-bottom:1rem">Setting up the server Manager</h2>
 
 To add a role from the server manager. You can either do this from *Add roles and features* or *Manage* (top right corner).
 
@@ -76,7 +75,7 @@ To add a role from the server manager. You can either do this from *Add roles an
 
 8. To add a custom page, right-click *Sites*, and then switch over to content view, under website.
 
-<h2 style="color:#92BA92; padding-bottom:1rem">Setting up the server Manager</h2>
+<h2 style="padding-bottom:1rem">Setting up the server Manager</h2>
 
 1. Access the file explorer, and then navigate to the directory that has your web content. From there, click *PC*, click *Windows*, click *Inetpub* then click *wwwroot*.
 

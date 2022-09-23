@@ -5,20 +5,20 @@ date: 2022-06-11
 tag: Lessons
 ---
 
-<h2 style="color:#92BA92; padding-bottom:1rem">Introduction</h2>
+<h2 style="padding-bottom:1rem">Introduction</h2>
 
 I often have to click around applications to prepare myself during the start of my work shift, so I thought of a way to automate this process by creating a simple python command that can loop through a list of application dir and start them.
 
 This code is a template program to help start all desired applications automatically with a waiting period between each iteration using a .bat executable file and save time clicking around applications (More time for a cup of tea).
 
-<h2 style="color:#92BA92; padding-bottom:1rem">Prerequisite</h2>
+<h2 style="padding-bottom:1rem">Prerequisite</h2>
 
 To run this program you would need to have the applications listed below installed on your laptop or desktop computer.
 
 - <a className="post-links" target="_blank" href="https://git-scm.com/downloads/"> *Git*.</a>
 - <a className="post-links" target="_blank" href="https://www.python.org/downloads/"> *Python*.</a>
 
-<h2 style="color:#92BA92; padding-bottom:1rem">Usage</h2>
+<h2 style="padding-bottom:1rem">Usage</h2>
 
 From your favourite terminal, Clone this git repo using the command below:
 
@@ -78,6 +78,6 @@ Will change to
 </pre>
 </div>
 
-<h2 style="color:#92BA92; padding-bottom:1rem">Run .bat command</h2>
+<h2 style="padding-bottom:1rem">Run .bat command</h2>
 
 To reduce the number of clicks, you can add the .bat file to your desktop, so when you are resuming your shift, you can double-click the .ba file to execute the python program.
