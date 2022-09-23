@@ -46,7 +46,7 @@ function Home() {
             <div className="articlesHeader">
                <h2 className="articleHead">Latest Articles</h2>
                <a className="articleLink" href="/blogs">
-                  View All
+                  View all
                </a>
             </div>
             <div className="postlist">
