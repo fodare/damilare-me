@@ -5,10 +5,7 @@ function Projects() {
       <div className="container">
          <div className="projectsInto">
             <h3>Projects</h3>
-            <p>
-               Below are some open-source projects, personal projects I have
-               created or working on.
-            </p>
+            <p>Please check back later. I'm still putting things together.</p>
          </div>
       </div>
    );
