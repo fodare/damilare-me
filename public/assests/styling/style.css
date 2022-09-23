@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: 'Roboto Mono', monospace;
-    background-color:#282c34;
+    background-color:#31363b;
     color:#f8f9fa;
     position: relative;
     display: flex;
@@ -70,10 +70,14 @@ a{
 
 .introParagraph{
     color: #d0d5df;
-    line-height: 1.65;
+    line-height: 1.6;
     max-width: 90%;
+    font-size:1rem;
+    font-weight: bold;
+    display:block;
     
 }
+
 .introPic{
     width:10rem;
     font-size: 1.2;
@@ -132,6 +136,16 @@ a{
     color:#7c817f;
     background-color:#1c1e24;
     padding: 0.4rem 1rem
+}
+
+.article-redirects{
+    color:#a4a9ff;
+    text-decoration: none;
+}
+
+.article-redirects:hover{
+    border-bottom: 1px solid;
+    color:#a4a9ff;
 }
 
 /* Blog page styling */

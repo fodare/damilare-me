@@ -11,20 +11,26 @@ function Home() {
                   <Greetings />, I'm Däre.
                </h2>
                <p className="introParagraph">
-                  I'm an IT Operations manager based in Münster Germany. I love
-                  building APIs and documenting solutions to technical related
-                  problems / what I learn. This page is a digital garden of
-                  things I've learned.
+                  I'm an IT Ops manager and a hobbyist developer based in
+                  Germany. This web page is a digital garden of tech-related
+                  projects, solutions and documentation for some of my day - day
+                  problems.
                </p>
-               <div className="introRedirectdiv">
-                  <a className="introRedirect" href="/about">
-                     <img
-                        alt="about logo"
-                        src="https://img.icons8.com/dotty/30/000000/about.png"
-                     />{" "}
-                     More about me
+
+               <p className="introParagraph">
+                  You and read more on{" "}
+                  <a href="/blogs" className="article-redirects">
+                     some of my articles
+                  </a>{" "}
+                  and{" "}
+                  <a href="/projects" className="article-redirects">
+                     projects
+                  </a>{" "}
+                  or{" "}
+                  <a href="/about" className="article-redirects">
+                     about me
                   </a>
-               </div>
+               </p>
             </div>
 
             <div className="col-lg-4 col-sm-4 col-md-4">
