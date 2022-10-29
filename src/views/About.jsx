@@ -6,18 +6,16 @@ function About() {
       <div className="container about">
          <div className="aboutIntro">
             <h3>About me</h3>
-            <p>
-               IT Operations Manager, Systems Engineer and a DevOps enthusiast.
-            </p>
+            <p>IT Ops manager and hobbyist developer.</p>
          </div>
 
          <div className="aboutMessage">
             <p>
-               <Greetings /> I'm Däre. I'm an IT Operations manager based in
-               Münster Germany. Welcome to my corner of the internet for
-               solutions on technical related how to's, projects I've created
-               and worked on, solutions to everyday technical problems at work
-               and other things I'd like to share with the universe.
+               <Greetings />
+               I'm Däre. I'm an IT Ops manager based in Münster Germany. Welcome
+               to my corner of the internet for solutions on technical related
+               how to's, projects I've created and worked on, answers to
+               everyday technical problems, and other things I'd like to share.
             </p>
 
             <div id="connect" className="connect-div">
@@ -46,16 +44,6 @@ function About() {
                         Linkedin.
                      </a>
                   </li>
-                  <li>
-                     <span className="connectLinks-discord">
-                        Via discord with username: Däre#0647
-                     </span>
-                  </li>
-                  <li>
-                     <span className="connectLinks-discord">
-                        Via COD with username: darecasi (If you play COD).
-                     </span>
-                  </li>
                </span>
             </div>
 
@@ -75,27 +63,6 @@ function About() {
                   <span className="company-name">
                      <p>BFS Finance Münster.</p>
                   </span>
-
-                  <span className="expreience-tasks">
-                     <li>
-                        Help implement and maintain continuous monitoring
-                        systems/applications, documentation and optimization of
-                        IT systems and services.
-                     </li>
-                     <li>
-                        Advice, analyze and classify technical IT requirements
-                        or malfunctions.
-                     </li>
-                     <li>
-                        Help with conception and implementations of IT
-                        infrastructure changes.
-                     </li>
-                     <li>
-                        Managing technical projects and management of internal
-                        projects staff and external service providers.
-                     </li>
-                     <li>Ensuring compliance and IT security regulations.</li>
-                  </span>
                </div>
 
                <div className="experice-div">
@@ -107,26 +74,6 @@ function About() {
                   <span className="company-name">
                      <p>AFS IT Services Estonia OÜ.</p>
                   </span>
-
-                  <span className="expreience-tasks">
-                     <li>
-                        Provide expert-level support and administration of
-                        systems and applications.
-                     </li>
-                     <li>
-                        Responsible and accountable for delivering services
-                        within an agreed SLAs.
-                     </li>
-                     <li>
-                        Responsible for continuous improvement and management of
-                        change affecting the services.
-                     </li>
-                     <li>
-                        Analyzing complex issues, identfying problems and
-                        developing, implementing logicl conclusions and
-                        effective solutions.
-                     </li>
-                  </span>
                </div>
 
                <div className="experice-div">
@@ -137,24 +84,6 @@ function About() {
 
                   <span className="company-name">
                      <p>AFS IT Services Estonia OÜ.</p>
-                  </span>
-
-                  <span className="expreience-tasks">
-                     <li>
-                        Rendering users swift and professional support services.
-                     </li>
-
-                     <li>
-                        Performing client surveys, creation and improving of
-                        documentation.
-                     </li>
-                     <li>
-                        Knowledge acquisitions of products and applications.
-                     </li>
-                     <li>
-                        Collecting and analyzing application logs to identify
-                        issues and providing inputs for application performance.
-                     </li>
                   </span>
                </div>
             </div>
