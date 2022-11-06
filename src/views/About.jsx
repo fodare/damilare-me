@@ -14,7 +14,7 @@ function About() {
                <Greetings />
                I'm Däre. I'm an IT Ops manager based in Münster Germany. Welcome
                to my corner of the internet for solutions on technical related
-               how to's, projects I've created and worked on, answers to
+               how-to's, projects I've created and working on, answers to
                everyday technical problems, and other things I'd like to share.
             </p>
 
