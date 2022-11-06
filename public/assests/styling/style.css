@@ -13,6 +13,32 @@ a{
     color:#f8f9fa;
 }
 
+/* Prefabs */
+
+.small-margin-top{
+    margin-top: 1rem;
+}
+
+.little-margin-btm{
+    margin-bottom: 2rem;
+}
+
+.medium-margin-btm{
+    margin-bottom:3rem;
+}
+
+.small-padding-top{
+    padding-top: 1rem;
+}
+
+.little-padding-top{
+    padding-top: 2rem;
+}
+
+.medium-padding-top{
+    padding-top: 3rem;
+}
+
 
 /* Footer styling */
 .footer{
@@ -335,6 +361,22 @@ a{
     font-weight:bold;
 }
 
+.miscellaneous h4{
+    font-size: 1.8rem;
+    font-weight:bold;
+    margin-top: 2rem;
+}
+
+.miscellaneous li{
+    color: #a4a9ff;
+    font-size:1.1rem;
+}
+
+.miscellaneous li a{
+    color: #a4a9ff;
+    font-size:1.3rem;
+}
+
 /* Page not found */
 .notfound{
     text-align:center
@@ -407,10 +449,85 @@ text-align:center
     padding: .5rem;
 }
 
+/* Resume view */
+.resume-header{
+    margin-bottom: 3rem;
+}
+
+.resume-headers{
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.resume-connections-links{
+    color:white;
+    line-height:2;
+}
+
+.resume-connections-links span li{
+    font-size: 1.2rem;
+    font-weight:bold;
+}
+
+.resume-connections-links span li a{
+    color: #a4a9ff;
+    font-size: medium;
+}
+
+.resume-mail{
+    color: white;
+    font-size: medium;
+}
+
+.resume-mail-address{
+    color: #a4a9ff;
+}
+
+.resume-experience-title{
+    font-size:2rem;
+    font-weight: bolder;
+}
+
+.resume-experience-roles{
+    line-height: 1.5;
+    margin-bottom:0.5rem;
+    box-sizing: border-box;
+}
+
+.resume-skills-list{
+    line-height: 2;
+}
+
+.resume-degree{
+    line-height: 1.5;
+}
+
+
 
 /* Media query */
 @media (max-width:1000px) {
     .introPic{
         display: none;
+    }
+
+    .resume-name{
+        font-size: 2rem;
+    }
+
+    .resume-headers{
+        font-size: 2rem;
+    }
+
+    .resume-experience-title{
+        font-size: 1.5rem;
+    }
+
+    .resume-experience-details{
+        font-size: .95rem;
+    }
+
+    .resume-experience-roles{
+        box-sizing: border-box;
+        font-size: .95rem;
     }
 }
