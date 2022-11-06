@@ -118,6 +118,15 @@ function About() {
                   <p>SEP 2014 - JUN 2017</p>
                </div>
             </div>
+
+            <div className="miscellaneous">
+               <h4>
+                  Miscellaneous <hr />
+               </h4>
+               <li>
+                  <a href="/about/resume">Resume</a>
+               </li>
+            </div>
          </div>
       </div>
    );
