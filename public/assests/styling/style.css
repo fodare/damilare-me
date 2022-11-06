@@ -374,7 +374,8 @@ a{
 
 .miscellaneous li a{
     color: #a4a9ff;
-    font-size:1.3rem;
+    font-size:1.1rem;
+    text-decoration: none;
 }
 
 /* Page not found */
