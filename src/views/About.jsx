@@ -23,9 +23,9 @@ function About() {
                   Connect <hr />
                </h4>
 
-               <p>We can connect via the channels below:</p>
+               <p>You can always reach me via the channels below.</p>
                <span className="connectLinks">
-                  <li>
+                  <span>
                      <a
                         href="https://github.com/fodare"
                         target="_blank"
@@ -33,9 +33,11 @@ function About() {
                      >
                         Github.
                      </a>
-                  </li>
+                  </span>
 
-                  <li>
+                  <br />
+
+                  <span>
                      <a
                         href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
                         target="_blank"
@@ -43,7 +45,7 @@ function About() {
                      >
                         Linkedin.
                      </a>
-                  </li>
+                  </span>
                </span>
             </div>
 
