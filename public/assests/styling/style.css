@@ -178,6 +178,15 @@ a{
     color:#a4a9ff;
 }
 
+.dotted-colors{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 .5rem;
+}
+
+
 /* Blog page styling */
 
 .articlediv{
@@ -530,5 +539,10 @@ text-align:center
     .resume-experience-roles{
         box-sizing: border-box;
         font-size: .95rem;
+    }
+
+    .grid-colors{
+        display: none;
+        visibility: hidden;
     }
 }
