@@ -1,4 +1,5 @@
 import React from "react";
+import ColorDiv from "../components/ColorfulDiv";
 import PostList from "../components/Postlist";
 import Greetings from "../helpers/date";
 
@@ -6,8 +7,8 @@ function Home() {
    return (
       <div className="container">
          <div className="intro row ">
-            <div className="col-lg-8 col-sm-8 col-md-8">
-               <h2 className="introGreetings">
+            <div className="col-lg-7 col-sm-12 col-md-12">
+               <h2 className="introGeetings">
                   <Greetings />, I'm Däre.
                </h2>
                <p className="introParagraph">
@@ -33,12 +34,8 @@ function Home() {
                </p>
             </div>
 
-            <div className="col-lg-4 col-sm-4 col-md-4">
-               <img
-                  className="introPic"
-                  alt="damilare.png"
-                  src="https://avatars.githubusercontent.com/u/41299452?v=4"
-               />
+            <div className="col-lg-5 col-sm-12 col-md-12 intro-colors">
+               <ColorDiv />
             </div>
          </div>
 
