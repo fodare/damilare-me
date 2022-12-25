@@ -1,13 +1,36 @@
 import React from "react";
+import ProjectCard from "../components/ProjectCard";
 
 function Projects() {
    return (
-      <div className="container">
-         <div className="projectsInto">
-            <h3>Projects</h3>
-            <p>Please check back later. I'm still putting things together.</p>
+      <section className="projectListSection container">
+         <h1 className="projectHeader">Projects</h1>
+         <div className=" projectPreview row gy-3">
+            <ProjectCard
+               year="2022"
+               projectLink="/"
+               projectTitle="damilaref.dev"
+               projectDescription="Source code for this website."
+               projectSourceCode="https://github.com/fodare/damilare-me"
+               demo=""
+               demoLink=""
+               demoVisiblity="hidden"
+               demoDisplay="none"
+            />
+
+            <ProjectCard
+               year="2022"
+               projectLink="https://github.com/fodare/FileShare"
+               projectTitle="FileShare"
+               projectDescription="WebApp to store and share files."
+               projectSourceCode="https://github.com/fodare/FileShare"
+               demo=""
+               demoLink=""
+               demoVisiblity="hidden"
+               demoDisplay="none"
+            />
          </div>
-      </div>
+      </section>
    );
 }
 

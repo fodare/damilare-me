@@ -248,18 +248,52 @@ a{
 .about{
     line-height: 1.6;
 }
-.projectsInto{
-    text-align: center
+
+.projectListSection{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
-.projectsInto h3{
+.projectCard{
+    background-color: #31363b !important;
+    color: #f8f9fa;
+    border: 1px solid black;
+    border-radius: 10px;
+    max-height: 15rem !important;
+}
+
+.projectHeader{
     font-weight: bolder;
-    font-size: 2.6rem;
-    padding: 1.6rem 1rem
+    margin-bottom: 2rem;
 }
 
-.projectsInto p{
-    width: 100%
+.projectTitle{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+.projectTitle:hover{
+    text-decoration: underline;
+    color: #f8f9fa;
+}
+
+.projectSoureCodeLink{
+    padding: .5rem 1rem !important;
+    border-radius: 10px !important;
+    background-color: #1c1e24;
+    text-decoration: none;
+}
+
+.projectSoureCodeLink:hover{
+    color: #f8f9fa;
+    border: 1px solid lightgray;
+}
+
+.projectYear{
+    font-weight: lighter;
+    font-size: .9rem;
+    padding-bottom: .4rem;
 }
 
 /* About page styling */
