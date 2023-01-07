@@ -178,6 +178,15 @@ a{
     color:#a4a9ff;
 }
 
+.grid-colors{
+    border: 3px dashed #a3b2c1;
+    border-radius: 15px;
+    padding: 1rem;
+    width: fit-content;
+    height: fit-content;
+
+}
+
 .dotted-colors{
     height: 40px;
     width: 40px;
@@ -201,12 +210,11 @@ a{
     font-weight: bolder;
     font-size: 2.6rem;
     padding: 1.6rem 1rem;
-    text-align: center;
 }
 
 .articlesIntro p{
     width: auto;
-    text-align: center;
+    text-align: left;
     padding: 1rem
 }
 
