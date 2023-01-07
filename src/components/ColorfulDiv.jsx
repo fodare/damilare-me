@@ -3,17 +3,18 @@ import React from "react";
 function ColorDiv() {
    const colors = [
       "#0A2647",
-      "#E80F88",
       "#FFC6D3",
-      "#E98EAD",
       "#472183",
       "#E80F88",
       "#864879",
+      "#C780FA",
+      "#89C4E1",
+      "#A8E890",
    ];
 
    function returnrandomColor(colors) {
       const arrayLength = colors.length;
-      return Math.floor(Math.random() * (arrayLength - 1)) + 0;
+      return Math.floor(Math.random() * arrayLength) + 0;
    }
 
    return (
