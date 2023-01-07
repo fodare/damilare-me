@@ -265,7 +265,7 @@ a{
 .projectCard{
     background-color: #31363b !important;
     color: #f8f9fa;
-    border: 1px solid black;
+    border: 1px dashed #a3b2c1;
     border-radius: 10px;
     max-height: 15rem !important;
 }
