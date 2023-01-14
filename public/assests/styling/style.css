@@ -307,10 +307,7 @@ a{
 /* About page styling */
 .about{
     margin:3rem auto;
-}
-
-.aboutIntro{
-    text-align:center
+    text-align: left;
 }
 
 .aboutIntro h3{
