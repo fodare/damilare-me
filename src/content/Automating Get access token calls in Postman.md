@@ -19,8 +19,7 @@ Let's create a collection(More like a dir) to hold all the resource paths/calls 
 
 <h2 style="padding-bottom:1rem">Step 2: Create enviroment variables</h2>
 
-Postman environment variables can be treated as virtual memories to help you store values. Below is an image illustrating a quick step to create an environment variable.
-
+Postman environment variables can be treated as virtual memories to help you store values. Below is an image illustrating a quick step to create an environment variable. <br/>
 <a target="_self" href="https://raw.githubusercontent.com/fodare/media/main/Automate%20Postman%20access%20token/CreateEnviromentVariable.png"><img className="posts-image" src="https://raw.githubusercontent.com/fodare/media/main/Automate%20Postman%20access%20token/CreateEnviromentVariable.png" alt="Create postman enviroment variables"/></a>
 
 Once the step above is completed, do not forget to specify the correct environment variable to be used for your collection.
