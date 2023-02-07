@@ -267,7 +267,7 @@ a{
     color: #f8f9fa;
     border: 1px dashed #a3b2c1;
     border-radius: 10px;
-    max-height: 15rem !important;
+    height: 10rem !important;
 }
 
 .projectHeader{
