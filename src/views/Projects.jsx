@@ -29,6 +29,18 @@ function Projects() {
                demoVisiblity="hidden"
                demoDisplay="none"
             />
+
+            <ProjectCard
+               year="2023"
+               projectLink="https://github.com/fodare/FinanceManager"
+               projectTitle="FinanceManager"
+               projectDescription="WebApp to track spending and savings habit."
+               projectSourceCode="https://github.com/fodare/FinanceManager"
+               demo=""
+               demoLink=""
+               demoVisiblity="hidden"
+               demoDisplay="none"
+            />
          </div>
       </section>
    );
