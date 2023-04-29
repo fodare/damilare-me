@@ -1,5 +1,5 @@
 import React from "react";
-import { Navigate } from "react-router-dom";
+import { Navigate, parsePath } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import Markdown from "react-markdown";
 import postlist from "../posts.json";
@@ -8,7 +8,7 @@ import rehypeRaw from "rehype-raw";
 const BlogPost = () => {
    let { query } = useParams();
 
-   const validQuery = parseInt(query);
+   const validQuery = query;
 
    if (!validQuery) {
       return <Navigate to="*" />;
@@ -19,7 +19,7 @@ const BlogPost = () => {
    let postExists = false;
 
    postlist.forEach((post, i) => {
-      if (validQuery === post.id) {
+      if (validQuery === post.title) {
          fetchedPost.title = post.title ? post.title : "No title given";
          fetchedPost.date = post.date ? post.date : "No date given";
          fetchedPost.author = post.author ? post.author : "No author given";

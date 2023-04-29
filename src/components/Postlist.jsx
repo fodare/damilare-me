@@ -8,7 +8,7 @@ const PostList = () => {
       postlist.map((post, i) => {
          return (
             <div key={i} className="post">
-               <Link className="postlink" to={`/blogpost/${post.id}`}>
+               <Link className="postlink" to={`/blogpost/${post.title}`}>
                   <div className="postitems">
                      <h3>{post.title}</h3>
                      {/* <p>{post.date}</p> */}
