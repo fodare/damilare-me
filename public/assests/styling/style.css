@@ -50,40 +50,37 @@ a{
 
 
 /* Navbar styling */
-.navigation-bar {
-    font-weight:bolder;
-    color:#d0d5df;
-    padding: 0 0.9rem !important;
+
+.nav-element{
+    padding-top: 2rem;
 }
 
-.navigation-bar li:hover{
-    border-radius: 0px;
+.nav-wrapper{
+    padding-bottom: 1rem;
 }
 
-.git-logo{
-    color: #f8f8f8!important;
-}
-.header-div{
-    background-color:#1c1e24;
-    margin-bottom: 3rem;
-}
-
-.logo{
+.brand{
     font-size: 1.5rem;
-    font-weight:bold;
+    font-weight: bolder;
+    text-decoration: none;
     color:#f8f9fa;
 }
 
-.blog-link:hover{
-    border-bottom: 1px solid #a4a9ff;
+.brand:hover{
+    color:#f8f9fa;
 }
 
-.project-link:hover{
-    border-bottom: 1px solid #da66b7;
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
 }
 
-.about-link:hover{
-    border-bottom: 1px solid #b0292c;
+.routes{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 1.2rem;
 }
 
 /* Home page styling */
@@ -555,6 +552,10 @@ text-align:center
 
 /* Media query */
 @media (max-width:1000px) {
+
+    .nav-wrapper{
+        display: none;
+    }
     .introPic{
         display: none;
     }
