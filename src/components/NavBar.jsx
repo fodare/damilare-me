@@ -33,6 +33,16 @@ function NavBar() {
                   </a>
                </li>
 
+               {/* Tools */}
+               <li>
+                  <a
+                     href="/tools"
+                     className="nav-link px-4 link-secondary project-link"
+                  >
+                     Tools
+                  </a>
+               </li>
+
                {/* Abouts */}
                <li>
                   <a
