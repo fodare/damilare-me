@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function NavBar() {
    return (
@@ -18,36 +19,56 @@ function NavBar() {
                      <div className="routes">
                         {/* Home */}
                         <div className="nav-item-outer home-outer">
-                           <a href="/" className="route-links mobile-only">
+                           <NavLink
+                              to="/"
+                              activeClassName="active"
+                              className="route-links mobile-only home-route"
+                           >
                               <span>Home</span>
-                           </a>
+                           </NavLink>
                         </div>
                         {/* Blogs */}
                         <div className="nav-item-outer">
-                           <a href="/blogs" className="route-links blogs">
+                           <NavLink
+                              to="/blogs"
+                              activeClassName="active"
+                              className="route-links blogs blogs-route"
+                           >
                               <span>Blogs</span>
-                           </a>
+                           </NavLink>
                         </div>
 
                         {/* Projects */}
                         <div className="nav-item-outer">
-                           <a href="/projects" className="route-links projects">
+                           <NavLink
+                              to="/projects"
+                              activeClassName="active"
+                              className="route-links projects projects-route"
+                           >
                               <span>Projects</span>
-                           </a>
+                           </NavLink>
                         </div>
 
                         {/* Tools */}
                         <div className="nav-item-outer">
-                           <a href="/tools" className="route-links tools">
+                           <NavLink
+                              to="/tools"
+                              activeClassName="active"
+                              className="route-links tools tools-route"
+                           >
                               <span>Tools</span>
-                           </a>
+                           </NavLink>
                         </div>
 
                         {/* About */}
                         <div className="nav-item-outer">
-                           <a href="/about" className="route-links about">
+                           <NavLink
+                              to="/about"
+                              activeClassName="active"
+                              className="route-links about about-route"
+                           >
                               <span>About</span>
-                           </a>
+                           </NavLink>
                         </div>
                      </div>
                   </nav>
