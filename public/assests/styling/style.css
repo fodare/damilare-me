@@ -133,6 +133,25 @@ a{
     border-bottom: 1px solid var(--indigo-light);
 }
 
+.home-route:hover{
+    border-bottom:1px solid var(--indigo) ;
+}
+
+.blogs-route:hover{
+    border-bottom: 1px solid var(--orange);
+}
+
+.projects-route:hover{
+    border-bottom: 1px solid var(--pink);
+}
+
+.tools-route:hover{
+    border-bottom: 1px solid var(--yellow);
+}
+
+.about-route:hover{
+    border-bottom: 1px solid var(--indigo-light);
+}
 
 /* Home page styling */
 
