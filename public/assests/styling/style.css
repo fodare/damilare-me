@@ -125,10 +125,6 @@ a{
     border-bottom: 1px solid var(--pink);
 }
 
-.active.tools-route{
-    border-bottom: 1px solid var(--yellow);
-}
-
 .active.about-route{
     border-bottom: 1px solid var(--indigo-light);
 }
@@ -143,10 +139,6 @@ a{
 
 .projects-route:hover{
     border-bottom: 1px solid var(--pink);
-}
-
-.tools-route:hover{
-    border-bottom: 1px solid var(--yellow);
 }
 
 .about-route:hover{

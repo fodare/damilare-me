@@ -49,17 +49,6 @@ function NavBar() {
                            </NavLink>
                         </div>
 
-                        {/* Tools */}
-                        <div className="nav-item-outer">
-                           <NavLink
-                              to="/tools"
-                              activeClassName="active"
-                              className="route-links tools tools-route"
-                           >
-                              <span>Tools</span>
-                           </NavLink>
-                        </div>
-
                         {/* About */}
                         <div className="nav-item-outer">
                            <NavLink
