@@ -59,6 +59,19 @@ function NavBar() {
                               <span>About</span>
                            </NavLink>
                         </div>
+
+                        {/* Github */}
+                        <div className="nav-item-outer">
+                           <a
+                              href="https://github.com/fodare"
+                              activeClassName="active"
+                              target="_blank"
+                              rel="noreferrer"
+                              className="route-links about git-route"
+                           >
+                              <span>Github</span>
+                           </a>
+                        </div>
                      </div>
                   </nav>
                </div>

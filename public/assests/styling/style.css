@@ -129,6 +129,10 @@ a{
     border-bottom: 1px solid var(--indigo-light);
 }
 
+.active.git-route{
+    border-bottom: 1px solid var(--indigo-muted);
+}
+
 .home-route:hover{
     border-bottom:1px solid var(--indigo) ;
 }
@@ -145,6 +149,9 @@ a{
     border-bottom: 1px solid var(--indigo-light);
 }
 
+.git-route:hover{
+    border-bottom: 1px solid var(--indigo-muted);
+}
 /* Home page styling */
 
 .introGreetings{
