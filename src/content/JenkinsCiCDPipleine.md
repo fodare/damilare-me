@@ -19,33 +19,33 @@ Typically, Jenkins is a standalone application that can run on various types of 
 
 <h2 style="padding-bottom:1rem">Creating a pipleline</h2>
 
-Jenkins provides two forms for accessing the application, a web interface and a REST API interface. Using the web interface you can create a pipeline with the steps below.
+Jenkins provides two options for accessing the application, a web interface and a REST API interface. Using the web interface you can create a pipeline with the steps below.
 
 <h3 style="padding-bottom:1rem">Configure Tools</h3>
 
 From the dashboard click on `Manage Jenkins` then `Tools`.  At the bottom of the page, you can edit the docker installation by giving the installation a unique name and clicking the `Install automatically` check box like below.
 
-<a target="_self" href="https://raw.githubusercontent.com/fodare/media/main/Automate%20Postman%20access%20token/CreateCollection.png"><img className="posts-image" src="https://github.com/fodare/media/blob/main/JenkinsPipeline/Docker-installation.png?raw=true" alt="Adding docker tools."/></a>
+<a target="_self" href="https://github.com/fodare/media/blob/main/JenkinsPipeline/Docker-installation.png?raw=true"><img className="posts-image" src="https://github.com/fodare/media/blob/main/JenkinsPipeline/Docker-installation.png?raw=true" alt="Adding docker tools."/></a>
 
-<h3 style="padding-bottom:1rem">Add pipeline</h3>
+<h3 style="padding-bottom:1rem">Add a pipeline</h3>
 
 From the dashboard, click on the `New item` menu, provide desired pipeline name, and select the `Pipeline` option like below.
 
-<a target="_self" href="https://raw.githubusercontent.com/fodare/media/main/Automate%20Postman%20access%20token/CreateCollection.png"><img className="posts-image" src="https://github.com/fodare/media/blob/main/JenkinsPipeline/Creating-pipeline.png?raw=true" alt="Create new pipeline"/></a>
+<a target="_self" href="https://github.com/fodare/media/blob/main/JenkinsPipeline/Creating-pipeline.png?raw=true"><img className="posts-image" src="https://github.com/fodare/media/blob/main/JenkinsPipeline/Creating-pipeline.png?raw=true" alt="Create new pipeline"/></a>
 
-<h3 style="padding-bottom:1rem">Configure pipeline</h3>
+<h3 style="padding-bottom:1rem">Configure your pipeline</h3>
 
-Once the pipeline is ready, you will have a new view of the newly created pipeline when you can administrate the new pipeline. Click on the `Configure` menu to edit the pipeline's configuration.
+Once the pipeline is ready, you will be routed to a new view of the newly created pipeline when you can administrate the new pipeline. Click on the `Configure` menu to edit the pipeline's configuration.
 
 - Pipeline Definition = `Pipeline script from SCM`
-- SCM = `Git`
+- SCM = `Git` (Configure GitHub connection here.)
 - Script Path = `Jenkinsfile`
 
-If you would like the pipeline to be executed at certain intervals, you can check the `Build periodically` checkbox and configure the desired interval.
+If you would like the pipeline to be executed at certain intervals, you can check the `Build periodically` checkbox and configure the desired build interval.
 
 <h3 style="padding-bottom:1rem">Create docker hub connection</h3>
 
-To grant Jenkins access to your docker repository, you need to create stored credentials within Jenkins, so you can use creds when executing docker commands later in your Jenkins file.
+To grant Jenkins access to your docker repository, you need to create a stored credential within Jenkins, so you can use this credential when executing docker commands later in your Jenkins file.
 
 To create a credential, follow the steps below:
 
