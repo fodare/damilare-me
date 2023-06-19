@@ -194,6 +194,6 @@ Depending on your application, you can best find jenkins file for your applicati
 Independent of the build interval selected during your pipeline configuration, you can also trigger a build by following the steps below.
 
 - From the dashboard, click on your pipeline.
-- On the left pane, click `Build Now` menu.
+- On the left pane, click `Build Now` button.
 
 Once build is successful, you should have a new docker image within your docker repository on docker hub and if there are any changes to your code / application, the build process will tell if there are breaking changes or if new images are pushed to docker hub.
