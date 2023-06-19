@@ -17,7 +17,7 @@ This blog details a short description of creating a pipeline, building a docker 
 
 Typically, Jenkins is a standalone application that can run on various types of OS. I prefer the docker installation as it's faster and requires less maintenance. Please visit <a className="post-links" target="_blank" href="https://www.jenkins.io/doc/book/installing/docker/"> *Docker installation*</a> and <a className="post-links" target="_blank" href="https://www.jenkins.io/doc/book/installing/"> *Other installation*</a> for other types of available installations guides(Windows, macOS, Linux.).
 
-<h2 style="padding-bottom:1rem">Creating pipleline</h2>
+<h2 style="padding-bottom:1rem">Creating a pipleline</h2>
 
 Jenkins provides two forms for accessing the application, a web interface and a REST API interface. Using the web interface you can create a pipeline with the steps below.
 
