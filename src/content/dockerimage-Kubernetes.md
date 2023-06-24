@@ -7,9 +7,9 @@ tag: Lessons
 
 <h2 style="padding-bottom:1rem">Introduction</h2>
 
-<a className="post-links" target="_blank" href="https://docs.docker.com/get-started/overview/"> *Docker*</a> is an open platform for developing, shipping, and running <a className="post-links" target="_blank" href="https://docs.docker.com/get-started/overview/"> *containerized*</a> applications. <a className="post-links" target="_blank" href="https://docs.docker.com/get-started/overview/"> *K8s*</a> is an open source system to help automate deployment of applications and manage containerized applications. Together, these two services help aid smooth application development and deployment process.
+<a className="post-links" target="_blank" href="https://docs.docker.com/get-started/overview/"> *Docker*</a> is an open platform for developing, shipping, and running <a className="post-links" target="_blank" href="https://docs.docker.com/get-started/02_our_app/"> *containerized*</a> applications. <a className="post-links" target="_blank" href="https://kubernetes.io/"> *K8s*</a> is an open source system to help automate deployment of applications and manage containerized applications. Together, these two services help aid smooth application development and deployment process.
 
-For this short blog, I created a simple proxy <a className="post-links" target="_blank" href="https://flask.palletsprojects.com/en/2.2.x/"> *Flask*</a> app to fetch random user account from <a className="post-links" target="_blank" href="https://flask.palletsprojects.com/en/2.2.x/"> *Randomuser API*</a> then containerized tha application and pushed docker image to docker hub.
+For this short blog, I created a simple proxy <a className="post-links" target="_blank" href="https://flask.palletsprojects.com/en/2.2.x/"> *Flask*</a> app to fetch random user account from <a className="post-links" target="_blank" href="https://randomuser.me/documentation"> *Randomuser API*</a> then containerized the application and pushed docker image to docker hub.
 
 Please note the steps below are not ideal for a PROD env as there are more steps required to prepare and run a PROD-ready Kubernetes cluster.
 
