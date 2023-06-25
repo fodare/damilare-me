@@ -39,7 +39,7 @@ Once the cluster is ready, a green checkmark is displayed under the cluster stat
 
 - Copy the command and execute on your favourite CLI tool. Once executed, you have an active connection to the cluster.
 
-<h2 style="padding-bottom:1rem">Created a deployment</h2>
+<h2 style="padding-bottom:1rem">Create a deployment</h2>
 
 To quickly deploy your docker image, fill in and execute the commands below.
 
