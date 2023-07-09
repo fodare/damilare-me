@@ -13,7 +13,7 @@ This blog detail the steps to build docker images, provision an AKS cluster, pus
 
 <h2 style="padding-bottom:1rem">Prerequisites</h2>
 
-To successfully deploy to the AKS cluster, you will need the tools/applications listed below.
+To deploy the sample application built for this blog, you will need the tools and accounts listed below.
 
 1. Azure subscription. <a className="post-links" target="_blank" href="https://azure.microsoft.com/en-in/free/"> *Create a free account.*</a>
 
@@ -28,3 +28,77 @@ To successfully deploy to the AKS cluster, you will need the tools/applications 
 6. Terraform <a className="post-links" target="_blank" href="https://developer.hashicorp.com/terraform/tutorials/azure-get-started/install-cli"> *Installation guide.*</a>
 
 7. Favourite IDE. e.g. VS Code
+
+<h2 style="padding-bottom:1rem">Prepare your application code</h2>
+
+The <a className="post-links" target="_blank" href="https://github.com/fodare/Azure-k8s-flask-app"> *sample application*</a> used in this blog is a simple Python Flask server with a front-end and back-end service. The front-end service receives HTTP requests and then proxies requests to the back-end service, which then fetches random users from <a className="post-links" target="_blank" href="https://randomuser.me/"> *randomuser.me.*</a>
+
+Sample file structure.
+
+```python
+.
+├── AKS-gateway-ingress.yaml
+├── Azure-AKS
+│   ├── main.tf
+│   ├── output.tf
+│   └── variables.tf
+├── Azure-kubernete-iaac-pipeline.yml
+├── Backend
+│   ├── app.py
+│   ├── deployment.yaml
+│   ├── dockerfile
+│   └── requirements.txt
+├── backend-ci-cd-pipeline.yml
+├── docker-compose.yaml
+├── frontend
+│   ├── app.py
+│   ├── deployment.yaml
+│   ├── dockerfile
+│   ├── __pycache__
+│   │   └── app.cpython-310.pyc
+│   └── requirements.txt
+├── frontend-ci-cd-pipeline.yml
+└── ingress.yaml
+
+```
+
+<h2 style="padding-bottom:1rem">Testing locally</h2>
+
+The sample application has a docker-compose file you can run to test the application locally. Follow the steps below to test on your local machine.
+
+- Get a copy of the code.
+
+`git clone https://github.com/fodare/Azure-k8s-flask-app.git`
+
+- Navigate to root dir
+
+`cd cd Azure-k8s-flask-app/`
+
+- Start services
+
+`sudo docker compose up -d`
+
+- Test
+
+`docker container ps -a`
+
+```python
+
+CONTAINER ID   IMAGE                  COMMAND                PORTS                                      NAMES
+329911d5009c   foloo12/frontend:0.0.7 "python ./frontend/a…" 0.0.0.0:3000->5000/tcp, :::3000->5000/tcp  frontendservice
+6172e925710f   foloo12/backend:0.0.7  "python ./backend/ap…" 0.0.0.0:3001->5001/tcp, :::3001->5001/tcp  backendservice
+
+```
+
+The front-end service is exposed on port 3000 on your local machine, you can from your local browser search <http://localhost:3000/frontendservice/user>. Request is proxied to the back-end service then to <a className="post-links" target="_blank" href="https://randomuser.me/"> *randomuser.me.*</a>
+
+Front-end service verbs are:
+
+- <http://localhost:3000/frontendservice/>
+- <http://localhost:3000/frontendservice/user>
+- <http://localhost:3000/frontendservice/user/gender/male>
+- <http://localhost:3000/frontendservice/user/20>
+
+<h2 style="padding-bottom:1rem">Provision AKS cluster</h2>
+
+To host
