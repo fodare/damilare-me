@@ -23,7 +23,7 @@ To successfully deploy to the AKS cluster, you will need the tools/applications 
 
 4. A Docker hub account. <a className="post-links" target="_blank" href="https://hub.docker.com/#!"> *Create a free account.*</a>
 
-5. An Azure Devops account.<a className="post-links" target="_blank" href="https://azure.microsoft.com/en-us/products/devops/"> *Create a free account*</a>
+5. An Azure DevOps account.<a className="post-links" target="_blank" href="https://azure.microsoft.com/en-us/products/devops/"> *Create a free account*</a>
 
 6. Terraform <a className="post-links" target="_blank" href="https://developer.hashicorp.com/terraform/tutorials/azure-get-started/install-cli"> *Installation guide.*</a>
 
