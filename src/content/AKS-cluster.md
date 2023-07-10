@@ -101,4 +101,36 @@ Front-end service verbs are:
 
 <h2 style="padding-bottom:1rem">Provision AKS cluster</h2>
 
-To host
+Running applications on an AKS cluster requires we create the cluster in the first place. There are multiple ways to provision an AKS cluster, but one of my favourite ways is to use a CI-CD pipeline that executes terraform commands. Check out some tips from this Microsoft blog <a className="post-links" target="_blank" href="https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-terraform?tabs=azure-cli"> *here.*</a>
+
+For the sample application, there is a `dir` named `Azure-AKS` (AKS config file). The `main.tf` file contains simple terraform definitions to create a resource group and create the cluster. Notice the `backend "azurerm""` definition is commented, this is because we would be using a pipeline variable to pass these values to create an Azure storage account to help store terraform state remotely.
+
+Let's create a CI-CD pipeline to help automate the creation of an AKS cluster.
+
+- <a className="post-links" target="_blank" href="https://dev.azure.com/"> *From Azure DevOps*</a>, create a new project.
+
+- Create a service principal account.
+
+```python
+# From your CLI. 
+az login
+az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/<<your azure_subscription id>>"
+# Store the result safely
+```
+
+- Create a public key for ssh connection
+
+```python
+# From your cli
+ssh-keygen -m PEM -t rsa -b 4096
+# Do not store the pub file in your project dir.
+```
+
+- From Azure DevOps, `Project settings`,`Service connections`, create a new service connection for `Azure Resource Manager`, `Service principal (automatic)`
+
+- Import the public pub file created earlier to pipeline secure files
+
+  - `Pipeline` - `Library` - `Secure files`. Drag and drop or import the `.pub` file.
+
+- Create a new Pipeline.
+  - From the pipeline menu Click the `New pipeline`, select the location of the source code and use the `Starter pipeline`. Example github yaml, you can also use the sample code from <a className="post-links" target="_blank" href="https://github.com/fodare/Azure-k8s-flask-app/blob/main/Azure-kubernete-iaac-pipeline.yml"> *here*</a>. Comment out the `destroy` task as it deletes the cluster once executed. Uncomment the `vmImage` if you are using Azure's agent.
