@@ -6,7 +6,6 @@ function About() {
       <div className="container about">
          <div className="aboutIntro">
             <h3>About me</h3>
-            <p>IT service manager and hobbyist developer.</p>
          </div>
 
          <div className="aboutMessage">
