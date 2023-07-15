@@ -11,7 +11,7 @@ tag: Lessons
 
 For this short blog, I created a simple proxy <a className="post-links" target="_blank" href="https://flask.palletsprojects.com/en/2.2.x/"> *Flask*</a> app to fetch random user account from <a className="post-links" target="_blank" href="https://randomuser.me/documentation"> *Randomuser API*</a> then containerized the application and pushed docker image to docker hub.
 
-Please note the steps below are not ideal for a PROD env as there are more steps required to prepare and run a PROD-ready Kubernetes cluster. See <a className="post-links" target="_blank" href="https://kubernetes.io/docs/setup/production-environment/"> *Here*</a> for tips for prepreaing a PROD-grade k8s cluster.
+Please note the steps below are not ideal for a PROD env as there are more steps required to prepare and run a PROD-ready Kubernetes cluster. See <a className="post-links" target="_blank" href="https://kubernetes.io/docs/setup/production-environment/"> *Here*</a> for tips for preparing a PROD-grade k8s cluster.
 
 <h2 style="padding-bottom:1rem">Prerequisites</h2>
 
