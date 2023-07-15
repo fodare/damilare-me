@@ -70,7 +70,8 @@ The sample application has a docker-compose file you can run to test the applica
 
 <div className="code-highlight">
 <pre className=code-text>
-git clone https://github.com/fodare/Azure-k8s-flask-app.git
+
+`git clone https://github.com/fodare/Azure-k8s-flask-app.git`
 </pre>
 </div>
 
