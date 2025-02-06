@@ -33,9 +33,9 @@ function Projects() {
             <ProjectCard
                year="2023"
                projectLink="https://github.com/fodare/FinanceManager"
-               projectTitle="FinanceManager"
-               projectDescription="WebApp to track spending and savings habit."
-               projectSourceCode="https://github.com/fodare/FinanceManager"
+               projectTitle="Boris"
+               projectDescription="Python GUI to help track spending and savings habit."
+               projectSourceCode="https://github.com/fodare/Boris"
                demo=""
                demoLink=""
                demoVisiblity="hidden"
