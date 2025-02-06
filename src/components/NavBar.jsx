@@ -65,7 +65,7 @@ function NavBar() {
                            <a
                               href="https://github.com/fodare"
                               activeClassName="active"
-                              target="_blank"
+                              target="_self"
                               rel="noreferrer"
                               className="route-links about git-route"
                            >
