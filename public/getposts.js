@@ -1,7 +1,7 @@
 const path = require("path");
 const fs = require("fs");
 
-const dirPath = path.join(__dirname, "../src/content");
+const dirPath = path.join(__dirname, "../content/blog-posts");
 
 let postlist = [];
 
@@ -50,7 +50,6 @@ const getPosts = () => {
             const content = parseContent({ lines, metadataIndicies });
             const date = new Date(metadata.date);
             const timestamp = date.getTime() / 100;
-            console.log(timestamp);
 
             post = {
                id: timestamp,
@@ -76,4 +75,5 @@ const getPosts = () => {
    });
    return;
 };
+
 getPosts();
