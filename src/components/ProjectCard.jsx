@@ -18,7 +18,7 @@ function ProjectCard(props) {
                </p>
                <a
                   href={props.projectSourceCode}
-                  target={"_blank"}
+                  target={"_self"}
                   className="projectSoureCodeLink"
                   rel="noreferrer"
                >
@@ -31,7 +31,7 @@ function ProjectCard(props) {
                      display: props.demoDisplay,
                   }}
                   href={props.demoLink}
-                  target={"_blank"}
+                  target={"_self"}
                   className="projectSoureCodeLink"
                   rel="noreferrer"
                >
