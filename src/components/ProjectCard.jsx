@@ -8,7 +8,7 @@ function ProjectCard(props) {
                <a
                   href={props.projectLink}
                   className="projectTitle small-margin-top"
-                  target={"_blank"}
+                  target={"_self"}
                   rel="noreferrer"
                >
                   {props.projectTitle}
