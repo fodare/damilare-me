@@ -20,10 +20,10 @@ function Projects() {
 
             <ProjectCard
                year="2022"
-               projectLink="https://github.com/fodare/FileShare"
-               projectTitle="FileShare"
-               projectDescription="WebApp to store and share files."
-               projectSourceCode="https://github.com/fodare/FileShare"
+               projectLink="https://github.com/fodare/Germany_lang_flashcard_APP"
+               projectTitle="German Flash Card"
+               projectDescription="An Android flashcard application help users memorize common German words."
+               projectSourceCode="https://github.com/fodare/Germany_lang_flashcard_APP"
                demo=""
                demoLink=""
                demoVisiblity="hidden"
@@ -32,9 +32,9 @@ function Projects() {
 
             <ProjectCard
                year="2023"
-               projectLink="https://github.com/fodare/FinanceManager"
+               projectLink="https://github.com/fodare/Boris"
                projectTitle="Boris"
-               projectDescription="Python GUI to help track spending and savings habit."
+               projectDescription="Python GUI windows to help run personalized applications locally."
                projectSourceCode="https://github.com/fodare/Boris"
                demo=""
                demoLink=""
