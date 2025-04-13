@@ -4,7 +4,14 @@ function Resume() {
    return (
       <div className="container">
          <div className="resume-header">
-            <h1 className="resume-headers">Damilare Folorunso</h1>
+            <h1 className="resume-headers">Damilare O. Folorunso</h1>
+            <p>
+               I am a results-driven IT professional with expertise in
+               integration management, DevOps practices, and project execution.
+               I excel in fast-paced environments, designing scalable solutions
+               and improving operations between development teams and IT
+               services.
+            </p>
          </div>
 
          <div className="resume-connections-links medium-margin-btm">
@@ -44,10 +51,40 @@ function Resume() {
 
             <div className="resume-experience-job medium-margin-btm">
                <h3 className="resume-experience-title small-padding-top">
-                  IT Ops manager
+                  IT Service Expert
                </h3>
                <p className="resume-experience-details small-padding-top">
-                  <strong>BFS Finance Münster</strong> - DEC 2020 - Present
+                  <strong>Riverty Administration Services GmbH</strong> - SEP
+                  2024 - Present
+               </p>
+
+               <div className="resume-experience-roles">
+                  <li>
+                     Implement new customer integrations, configure technical
+                     settings and support tests based on business requirements.
+                  </li>
+                  <li>
+                     Ensure timely and accurate processing of data while
+                     providing service and monitoring applications.
+                  </li>
+                  <li>
+                     Develop and implement strategies to enhance IT service
+                     delivery, including the optimization of processes.
+                  </li>
+                  <li>
+                     Maintain a detailed catalog of knowledge, documentation,
+                     and CMDB structure for effective IT service management.
+                  </li>
+               </div>
+            </div>
+
+            <div className="resume-experience-job medium-margin-btm">
+               <h3 className="resume-experience-title small-padding-top">
+                  IT Service Manager
+               </h3>
+               <p className="resume-experience-details small-padding-top">
+                  <strong>Riverty Administration Services GmbH</strong> - DEC
+                  2020 - SEP 2024
                </p>
 
                <div className="resume-experience-roles">
@@ -55,7 +92,7 @@ function Resume() {
                      Responsible for the continuous monitoring, documentation
                      and optimization of IT services.
                   </li>
-                  <li>Provsion and manage Azure cloud services. </li>
+                  <li>Provision and manage Azure cloud services.</li>
                   <li>
                      Advise on technical IT requirements or malfunctions and
                      analyze and classify them.
@@ -69,15 +106,15 @@ function Resume() {
                      Lead technical projects and control internal project staff
                      as well as external service providers
                   </li>
-                  <li>Ensure compliance and IT security regulations.</li>
+                  <li>Ensure compliance and IT security regulations</li>
                   <li>
                      Help develop support processes, plan training and service
                      handover procedures.
                   </li>
-                  <li>Identify and develop internal process automation</li>
+                  <li>Identify and develop internal process automation.</li>
                   <li>
                      Create collaborative environment with other technical and
-                     non-technical stakeholders
+                     non-technical stakeholders.
                   </li>
                </div>
             </div>
@@ -87,10 +124,9 @@ function Resume() {
                   Support Service Owner
                </h3>
                <p className="resume-experience-details small-padding-top">
-                  <strong>AFS IT Services Estonia OÜ.</strong> - JAN 2020 - NOV
+                  <strong>AFS IT SERVICES ESTONIA OÜ</strong> - JAN 2020 - NOV
                   2020
                </p>
-
                <div className="resume-experience-roles">
                   <li>
                      Provide expert level support and administration of systems
@@ -106,31 +142,30 @@ function Resume() {
                      change management practice.
                   </li>
                   <li>
-                     Create accurate, clear technical documentation and
-                     trainning for the support team.
+                     Create accurate, clear technical documentation and training
+                     for the support team.
                   </li>
                </div>
             </div>
 
             <div className="resume-experience-job medium-margin-btm">
                <h3 className="resume-experience-title small-padding-top">
-                  Technical Support Analyst
+                  TECHNICAL SUPPORT ANALYST
                </h3>
                <p className="resume-experience-details small-padding-top">
-                  <strong>AFS IT Services Estonia OÜ.</strong> - FEB 2019 - DEC
+                  <strong>AFS IT SERVICES ESTONIA OÜ</strong> - FEB 2019 - DEC
                   2019
                </p>
-
                <div className="resume-experience-roles">
                   <li>
                      Troubleshoot and diagnose availability and performance
-                     issues
+                     issues.
                   </li>
                   <li>
                      Maintain error logs in coordination with IT departments,
                      and to maintain resolution reports.
                   </li>
-                  <li>Incident handling and ensure quick resolution.</li>
+                  <li>Handle incidents and ensure quick resolutions.</li>
                   <li>Identify, monitor applications metrics.</li>
                </div>
             </div>
@@ -140,18 +175,17 @@ function Resume() {
             <hr />
             <div className="resume-skills-list">
                <li>
-                  <strong>Languages : </strong>Javascript, Python, C#, SQL,
-                  Motoko.
+                  <strong>Natural languages : </strong>English, German(A2)
                </li>
                <li>
-                  <strong>Concepts:</strong> Cloudification, Version control,
-                  Design Patterns (REST API Design, MVC), Testing, monitoring,
-                  Systems administration, Web3, Automation / scripting, Internet
-                  computer.
+                  <strong>Languages : </strong>Javascript, Python, C#,
+                  SQL,MongoDB.
                </li>
                <li>
-                  <strong>Frameworks / Libraries / Products:</strong> REACTJS,
-                  Flask, Django, NodeJS, ASP.NET, MongoDB, SQLlite
+                  <strong>Concepts:</strong> Cloud computing, Version control,
+                  Design Patterns, Testing, monitoring, Systems administration
+                  and integrations, Web3, Automation / scripting, Mobile and
+                  Desktop application developments.
                </li>
             </div>
          </div>
