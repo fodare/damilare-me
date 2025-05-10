@@ -41,6 +41,18 @@ function Projects() {
                demoVisiblity="hidden"
                demoDisplay="none"
             />
+
+            <ProjectCard
+               year="2025"
+               projectLink="https://github.com/fodare/bravectl"
+               projectTitle="bravectl"
+               projectDescription="A .NET tool / cli app that performs web searches using the Brave API."
+               projectSourceCode="https://github.com/fodare/bravectl"
+               demo=""
+               demoLink=""
+               demoVisiblity="hidden"
+               demoDisplay="none"
+            />
          </div>
       </section>
    );
