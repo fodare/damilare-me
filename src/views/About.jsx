@@ -10,10 +10,10 @@ function About() {
 
          <div className="aboutMessage">
             <p>
-               <Greetings />, I'm Däre. I'm an IT service manager. Welcome to my
-               corner of the internet for solutions on technical-related
-               how-to's, projects I've created and worked on, answers to
-               everyday technical problems, and other things I'd like to share.
+               <Greetings />, I'm Däre. I’m an integration engineer who enjoys
+               making complex systems work together. This is my corner of the
+               internet, where I share projects, technical how-tos, and
+               practical solutions to real-world problems.
             </p>
 
             <div id="connect" className="connect-div">
