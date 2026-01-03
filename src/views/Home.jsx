@@ -17,7 +17,7 @@ function Home() {
                </p>
 
                <p className="introParagraph">
-                  You and read more on{" "}
+                  You can read more on{" "}
                   <a href="/blogs" className="article-redirects">
                      some of my articles
                   </a>{" "}
