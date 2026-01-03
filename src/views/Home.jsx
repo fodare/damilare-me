@@ -12,9 +12,8 @@ function Home() {
                   <Greetings />, I'm Däre.
                </h2>
                <p className="introParagraph">
-                  I'm an IT service manager. This web page is a digital garden
-                  of tech-related projects, solutions, and documentation for
-                  some of my daily problems.
+                  I’m an integration engineer who enjoys making complex systems
+                  work together.
                </p>
 
                <p className="introParagraph">
